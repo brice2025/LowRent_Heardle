@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter.filedialog import askdirectory
 import os
 from pygame import mixer
 import random
@@ -22,7 +23,7 @@ canvas.geometry("500x200")
 canvas.config(bg='black')
 
 # where to locate the music
-rootpath = input("Filepath of music folder: ")
+rootpath = tk.filedialog.askdirectory()
 pattern_mp3 = "*.mp3"
 pattern_wav = "*.wav"
 
