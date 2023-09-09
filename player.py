@@ -13,7 +13,6 @@ playlist_bookmark = None
 ##########
 # final state play song add progress bar
 # add volume bar (decided don't care, use system vol)
-# have program ask where music is
 
 
 # create Tk object and set attrs
@@ -23,7 +22,6 @@ canvas.geometry("500x200")
 canvas.config(bg='black')
 
 # where to locate the music
-#rootpath = r"C:\Users\brice\Desktop\test"
 rootpath = input("Filepath of music folder: ")
 pattern_mp3 = "*.mp3"
 pattern_wav = "*.wav"
