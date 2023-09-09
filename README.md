@@ -2,13 +2,13 @@
 Heardle game from mp3 files on local machine
 
 ## Uses:
- Uses pygame.mixer for mp3 player 
- tkinter for GUI.
+ Uses pygame.mixer for mp3 player   
+ tkinter for GUI  
  For volume use system volume.
 
 ## Music
- Prompt at beginning to point it to where your music files are. 
- It will ignore subfolders.
+ Prompt at beginning to point it to where your music files are.   
+ It will ignore subfolders.  
 
 
 ## Premise of game:
