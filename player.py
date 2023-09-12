@@ -24,8 +24,6 @@ canvas.config(bg='black')
 
 # where to locate the music
 rootpath = tk.filedialog.askdirectory()
-pattern_mp3 = "*.mp3"
-pattern_wav = "*.wav"
 
 # create the music player
 mixer.init()
