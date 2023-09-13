@@ -18,7 +18,7 @@ playlist_bookmark = None
 
 # create Tk object and set attrs
 canvas = tk.Tk()
-canvas.title("Low-Rent Heardle Training")
+canvas.title("Heardle Training")
 canvas.geometry("500x200")
 canvas.config(bg='black')
 
